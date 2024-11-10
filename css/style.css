@@ -1,0 +1,55 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* Navbar Styling */
+.nav-bar {
+  background-color: #434343;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 60px; /* space between nav items */
+}
+
+.nav-bar-icon {
+  margin-left: 25%;
+  width: 90px;
+  height: auto;
+  justify-self: start;
+}
+
+.nav-bar-menu {
+  display: flex;
+  margin-right: 30%;
+  justify-self: end;
+  grid-template-columns: repeat(4,auto);
+}
+
+.nav-bar-item {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-bar-item:hover {
+  color: #f0f0f0; /* lightens color on hover */
+}
+

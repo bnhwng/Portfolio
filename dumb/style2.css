@@ -1,0 +1,48 @@
+body {
+  font-family: "Inter", serif !important;
+}
+
+#navbar-override{
+  background-color: #434343 !important;
+}
+
+
+.navbar-nav{
+  display: flex;
+  margin-right: 20% !important;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left:20%;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.navbar-icon{
+  width: 70px;
+}
+
+@media (max-width: 1200px) {
+  .navbar-brand {
+    margin-left: calc(25%); /* Gradually reduce margin */
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-brand {
+    margin-left: calc(15%); /* Smaller margin for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    margin-left: calc(5%); /* Even smaller margin for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    margin-left: 0; /* Stick to the left on extra-small screens */
+  }
+}
