@@ -1,0 +1,48 @@
+.project-slider{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30%;
+  box-shadow: 0px 0px 1px 0px;
+  background-color: #FAFAFA;
+
+}
+
+
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 100px;
+  margin: 30px 0px 30px 0px;
+  opacity: 1;
+  animation: fadeIn 0.6s;
+}
+
+.project-title{
+  margin-top:30px;
+  color:#434343;
+  animation: fadeIn 0.6s;
+}
+
+.card-img-top{
+  height:200px !important;
+  overflow: hidden;
+}
+
+/* about me */
+.about-me{
+  height:300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-me > h2{
+  margin-top:30px;
+  color:#434343;
+}
+
+@keyframes fadeIn{
+  0% {opacity: 0;}
+  100%{opacity: 1;}
+}
